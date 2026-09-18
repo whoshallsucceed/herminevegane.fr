@@ -13,29 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "L'Hermine Végane"
-email: hermine.vegane@sent.com
+title: "Antispécisme"
+email: nagevofficial@sent.com
 description: >- # this means to ignore newlines until "baseurl:"
-  L'Hermine Végane essaie de partager en simplicité des informations trop souvent tues
-  sur des sujets tels que la santé, l'alimentation et surtout le véganisme.
+  Antispécisme, justice animale et cohérence des luttes : vidéos, analyses,
+  enquêtes et ressources pour comprendre et combattre toutes les formes
+  d'exploitation animale.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://veganisme.adriengiboire.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://antispecis.me" # the base hostname & protocol for your site, e.g. http://example.com
 socials:
-  twitter:
-    link: https://x.com/adriengiboire
-    username: adriengiboire
-    icon: twitter
-  facebook:
-    link: https://facebook.com/adriengiboire
-    username: adriengiboire
-    icon: facebook
+  tiktok:
+    link: https://tiktok.com/nagevofficial
+    username: nagevofficial
+    icon: tiktok
   instagram:
-    link: https://instagram.com/adriengiboire
-    username: adriengiboire
+    link: https://instagram.com/nagevofficial
+    username: nagevofficial
     icon: instagram
   youtube:
-    link: https://www.youtube.com/adriengiboire
-    username: "Adrien Giboire - La vie d'un végane"
+    link: https://www.youtube.com/@HorsAsphalte
+    username: "Hors Asphalte - La vie d'un végane"
     icon: youtube
 
 # Build settings
