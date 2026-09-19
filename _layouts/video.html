@@ -1,17 +1,20 @@
 ---
 layout: default
 ---
-
 <article>
   <header class="article-header">
     <div class="article-header__meta">
-      <span>// {{ page.section | default: "Page" }}</span>
+      <span>// {{ page.section | default: page.collection | default: "Vidéo" }}</span>
     </div>
 
     <h1>{{ page.title }}</h1>
   </header>
 
   <div class="article-content">
+    {% if page.youtube %}
+      <p><a class="button button--dark" href="{{ page.youtube }}">Voir la vidéo</a></p>
+    {% endif %}
+
     {{ content }}
   </div>
 </article>

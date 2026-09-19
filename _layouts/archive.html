@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<section class="section">
+  <div class="section__header">
+    <div>
+      <p class="section-label">// Archives</p>
+      <h1 class="section__title">{{ page.title | default: "Publications" }}</h1>
+    </div>
+  </div>
+
+  <div class="posts-grid">
+    {% for post in site.posts %}
+      {% include post-card.html post=post number=forloop.index %}
+    {% endfor %}
+  </div>
+</section>

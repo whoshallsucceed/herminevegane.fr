@@ -1,0 +1,68 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid $ink;
+  background: transparent;
+  color: $ink;
+  font-family: $font-display;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 180ms ease;
+
+  &:hover {
+    background: $red;
+    border-color: $red;
+    color: $white;
+  }
+
+  &--dark {
+    background: $ink;
+    color: $paper;
+
+    &:hover {
+      background: $red;
+      border-color: $red;
+    }
+  }
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 0.35rem;
+  color: $red;
+  font-family: $font-display;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.numbered-list {
+  display: grid;
+  gap: 0;
+  margin: $space-4 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: items;
+
+  li {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid $line;
+    counter-increment: items;
+
+    &::before {
+      content: counter(items, decimal-leading-zero);
+      color: $red;
+      font-family: $font-display;
+      font-weight: 900;
+    }
+  }
+}

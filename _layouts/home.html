@@ -2,25 +2,69 @@
 layout: default
 ---
 
-<div class="home">
+<section class="hero">
+  <div>
+    <p class="hero__eyebrow">// Média militant · justice animale</p>
 
-  {{ content }}
+    <h1>
+      Antispécisme,<br>
+      justice animale<br>
+      et cohérence<br>
+      des luttes.
+    </h1>
 
-  <h1 class="page-heading">Articles</h1>
+    <p class="hero__intro">
+      Comprendre. Déconstruire. S'organiser contre l'exploitation animale.
+    </p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+    <div class="hero__actions">
+      <a class="button button--dark" href="#publications">
+        Explorer
+      </a>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+      <a class="button" href="{{ '/ressources/' | relative_url }}">
+        Ressources
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="publications">
+  <div class="section__header">
+    <div>
+      <p class="section-label">// 01 · Dernières publications</p>
+      <h2 class="section__title">Déconstruire.</h2>
+    </div>
+
+    <a href="{{ '/archives/' | relative_url }}">Voir toutes les publications →</a>
+  </div>
+
+  <div class="posts-grid">
+    {% assign posts = site.posts | slice: 0, 6 %}
+
+    {% for post in posts %}
+      {% include post-card.html post=post number=forloop.index %}
     {% endfor %}
-  </ul>
+  </div>
+</section>
 
-  <p class="rss-subscribe">Abonne toi <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+<section class="section">
+  <div class="section__header">
+    <div>
+      <p class="section-label">// 02 · Position</p>
+      <h2 class="section__title">L'exploitation<br>n'est pas une fatalité.</h2>
+    </div>
+  </div>
 
-</div>
+  <div style="max-width: 700px; font-size: 1.25rem;">
+    <p>
+      L'antispécisme remet en cause la hiérarchie arbitraire entre les espèces
+      et considère les animaux comme des individus, pas comme des ressources.
+    </p>
+
+    <p>
+      Il ne s'agit pas de mieux exploiter. Il s'agit de mettre fin à
+      l'exploitation.
+    </p>
+  </div>
+</section>

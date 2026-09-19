@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<section class="section">
+  <div class="section__header">
+    <div>
+      <p class="section-label">// {{ page.section | default: page.title }}</p>
+      <h1 class="section__title">{{ page.title }}</h1>
+    </div>
+  </div>
+
+  {% if page.description %}
+    <p class="listing-intro">{{ page.description }}</p>
+  {% endif %}
+
+  {% assign docs = site[page.collection] %}
+  {% if docs.size > 0 %}
+    <div class="posts-grid">
+      {% for doc in docs %}
+        {% include post-card.html post=doc number=forloop.index %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="listing-empty">Rien ici pour l'instant.</p>
+  {% endif %}
+</section>

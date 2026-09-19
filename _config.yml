@@ -13,14 +13,46 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Antispécisme"
-email: nagevofficial@sent.com
+title: "antispecis.me"
 description: >- # this means to ignore newlines until "baseurl:"
   Antispécisme, justice animale et cohérence des luttes : vidéos, analyses,
   enquêtes et ressources pour comprendre et combattre toutes les formes
   d'exploitation animale.
 baseurl: "" # the subpath of your site, e.g. /blog
+
+email: nagevofficial@sent.com
 url: "https://antispecis.me" # the base hostname & protocol for your site, e.g. http://example.com
+
+lang: fr
+timezone: Europe/Paris
+
+permalink: /:categories/:title/
+
+collections:
+  analyses:
+    output: true
+    permalink: /analyses/:name/
+  videos:
+    output: true
+    permalink: /videos/:name/
+  objections:
+    output: true
+    permalink: /objections/:name/
+  ressources:
+    output: true
+    permalink: /ressources/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: "antispecis.me"
+
+sass:
+  style: compressed
+
 socials:
   tiktok:
     link: https://tiktok.com/nagevofficial

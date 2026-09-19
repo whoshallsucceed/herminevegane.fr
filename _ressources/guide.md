@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Guide
-permalink: /guide
+description: Réponses aux justifications de blesser et exploiter les animaux.
 ---
 
 # … des justifications pour blesser et exploiter les animaux

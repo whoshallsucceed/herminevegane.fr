@@ -1,0 +1,56 @@
+@media (max-width: 760px) {
+  .site-header,
+  .site-main,
+  .site-footer {
+    width: min(100% - 2rem, $max-width);
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: none;
+    padding: 1rem;
+    border-bottom: 1px solid $line;
+    background: $paper;
+
+    &.is-open {
+      display: grid;
+    }
+  }
+
+  .hero {
+    min-height: auto;
+    padding: $space-7 0 $space-6;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.75rem, 11.5vw, 5.5rem);
+  }
+
+  .posts-grid {
+    display: block;
+  }
+
+  .post-card {
+    min-height: 300px;
+    border-bottom: 1px solid $ink;
+  }
+
+  .post-card:last-child {
+    border-bottom: 0;
+  }
+
+  .section__header {
+    display: block;
+  }
+
+  .site-footer {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,24 +1,24 @@
 <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-    <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-
-    <ul class="social-media-list">
-      {% for social in site.socials %}
-        {% assign data = social[1] %}
-        <li>
-          <a href="{{ data.link }}" target="_blank">
-            <i class="fab fa-{{ data.icon }}"></i>
-            <span class="username">{{ data['username'] }}</span>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-
-    <p class='text-muted'>{{ site.description | escape }}</p>
-
+  <div>
+    <a class="logo" href="{{ '/' | relative_url }}">
+      antispecis<span>.me</span>
+    </a>
   </div>
 
+  <div>
+    <p class="footer-title">
+      Les animaux ne sont pas des ressources.
+    </p>
+
+    <p>
+      Un média indépendant consacré à l'antispécisme,
+      à la justice animale et à la cohérence des luttes.
+    </p>
+
+    <p>
+      <a href="{{ '/mentions-legales/' | relative_url }}">Mentions légales</a>
+      ·
+      <a href="mailto:contact@antispecis.me">Contact</a>
+    </p>
+  </div>
 </footer>
