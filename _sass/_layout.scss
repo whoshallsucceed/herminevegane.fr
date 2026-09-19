@@ -19,7 +19,7 @@
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: 0.45em;
+  gap: 0.1em;
   font-family: $font-display;
   font-size: clamp(1.3rem, 3vw, 2rem);
   font-weight: 900;
@@ -35,6 +35,7 @@
     width: 1.2em;
     height: 1.2em;
     flex: none;
+    margin-right: 0.45em;
   }
 }
 
