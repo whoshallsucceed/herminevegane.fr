@@ -18,8 +18,8 @@
 
 .logo {
   display: inline-flex;
-  align-items: baseline;
-  gap: 0.1em;
+  align-items: center;
+  gap: 0.45em;
   font-family: $font-display;
   font-size: clamp(1.3rem, 3vw, 2rem);
   font-weight: 900;
@@ -29,6 +29,12 @@
 
   span {
     color: $red;
+  }
+
+  .logo-mark {
+    width: 1.2em;
+    height: 1.2em;
+    flex: none;
   }
 }
 

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 64" role="img" aria-label="antispecis.me">
+  <title>antispecis.me</title>
+  <rect width="64" height="64" rx="14" fill="#171717"/>
+  <g transform="rotate(-8 32 32)">
+    <ellipse cx="16" cy="25" rx="4.6" ry="6.2" fill="#f3f1ea" transform="rotate(-14 16 25)"/>
+    <ellipse cx="26.5" cy="19" rx="5" ry="6.6" fill="#f3f1ea" transform="rotate(-5 26.5 19)"/>
+    <ellipse cx="37.5" cy="19" rx="5" ry="6.6" fill="#f3f1ea" transform="rotate(5 37.5 19)"/>
+    <ellipse cx="48" cy="25" rx="4.6" ry="6.2" fill="#f3f1ea" transform="rotate(14 48 25)"/>
+    <ellipse cx="32" cy="42.5" rx="10.5" ry="8.2" fill="#d92b2b"/>
+  </g>
+  <text x="84" y="45" font-family="Archivo, 'Arial Black', Arial, sans-serif" font-weight="900" font-size="34" letter-spacing="-1" fill="#171717">antispecis<tspan fill="#d92b2b">.me</tspan></text>
+</svg>

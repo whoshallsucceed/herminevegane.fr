@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="antispecis.me — chèvre">
+  <title>antispecis.me — chèvre</title>
+  <rect width="64" height="64" rx="14" fill="#171717"/>
+  <ellipse cx="16.5" cy="17" rx="4.5" ry="7.5" fill="#f3f1ea" transform="rotate(-35 16.5 17)"/>
+  <ellipse cx="47.5" cy="17" rx="4.5" ry="7.5" fill="#f3f1ea" transform="rotate(35 47.5 17)"/>
+  <rect x="23.5" y="13" width="17" height="26" rx="8" fill="#f3f1ea"/>
+  <path d="M27.5 37 L36.5 37 L32 47 Z" fill="#f3f1ea"/>
+  <circle cx="28" cy="22.5" r="1.6" fill="#171717"/>
+  <circle cx="36" cy="22.5" r="1.6" fill="#171717"/>
+  <ellipse cx="32" cy="30" rx="2" ry="1.5" fill="#d92b2b"/>
+</svg>

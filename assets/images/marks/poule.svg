@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="antispecis.me — poule">
+  <title>antispecis.me — poule</title>
+  <rect width="64" height="64" rx="14" fill="#171717"/>
+  <circle cx="25.5" cy="12.5" r="3.4" fill="#d92b2b"/>
+  <circle cx="31" cy="10.5" r="3.6" fill="#d92b2b"/>
+  <circle cx="36.5" cy="12.5" r="3.4" fill="#d92b2b"/>
+  <circle cx="29" cy="23" r="10.5" fill="#f3f1ea"/>
+  <ellipse cx="26" cy="38" rx="9.5" ry="8.5" fill="#f3f1ea"/>
+  <path d="M38 20.5 L47 24 L38 27.5 Z" fill="#d92b2b"/>
+  <ellipse cx="36.5" cy="30.5" rx="2.6" ry="3.4" fill="#d92b2b"/>
+  <circle cx="32" cy="21.5" r="1.6" fill="#171717"/>
+</svg>

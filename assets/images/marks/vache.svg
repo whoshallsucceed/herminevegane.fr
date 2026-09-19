@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="antispecis.me — vache">
+  <title>antispecis.me — vache</title>
+  <rect width="64" height="64" rx="14" fill="#171717"/>
+  <ellipse cx="13.5" cy="23" rx="7" ry="4.4" fill="#f3f1ea" transform="rotate(-18 13.5 23)"/>
+  <ellipse cx="50.5" cy="23" rx="7" ry="4.4" fill="#f3f1ea" transform="rotate(18 50.5 23)"/>
+  <rect x="19.5" y="12" width="25" height="27" rx="11" fill="#f3f1ea"/>
+  <circle cx="26" cy="23.5" r="1.7" fill="#171717"/>
+  <circle cx="38" cy="23.5" r="1.7" fill="#171717"/>
+  <ellipse cx="32" cy="38.5" rx="9" ry="5.8" fill="#d92b2b"/>
+  <circle cx="28.5" cy="38.5" r="1.2" fill="#171717"/>
+  <circle cx="35.5" cy="38.5" r="1.2" fill="#171717"/>
+</svg>
