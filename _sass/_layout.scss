@@ -1,7 +1,8 @@
 .site-header,
 .site-main,
 .site-footer {
-  width: min(100% - 3rem, $max-width);
+  width: calc(100% - 3rem);
+  max-width: $max-width;
   margin-inline: auto;
 }
 

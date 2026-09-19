@@ -2,7 +2,8 @@
   .site-header,
   .site-main,
   .site-footer {
-    width: min(100% - 2rem, $max-width);
+    width: calc(100% - 2rem);
+    max-width: $max-width;
   }
 
   .menu-toggle {
